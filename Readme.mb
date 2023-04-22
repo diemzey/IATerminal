@@ -1,0 +1,42 @@
+README
+
+Descripción
+
+Este código utiliza la API de OpenAI para interactuar con el modelo de lenguaje GPT-4, específicamente ChatGPT. El objetivo es permitir al usuario interactuar con la IA y solicitarle ejecutar comandos en la terminal de una Mac. La IA genera y ejecuta comandos basados en las solicitudes del usuario.
+
+Créditos
+
+Este proyecto fue desarrollado utilizando el modelo de lenguaje GPT-4 de OpenAI y fue implementado por ChatGPT y Diemzey.
+
+Requisitos
+
+Python 3.6 o superior
+Cuenta en OpenAI con acceso habilitado al modelo GPT-4
+Biblioteca openai de Python
+Instalación
+
+Asegúrese de tener Python 3.6 o superior instalado.
+Instale la biblioteca openai de Python con el siguiente comando:
+Copy code
+pip install openai
+Configuración
+
+Reemplace 'pon tu api key de openai aquí' en la línea 4 del código con su propia clave API de OpenAI.
+Asegúrese de haber habilitado el uso de GPT-4 en su cuenta de OpenAI.
+Uso
+
+Ejecute el script con:
+
+Copy code
+python script.py
+El script iniciará una conversación con ChatGPT. Puede solicitar a la IA ejecutar comandos en la terminal de su Mac, siguiendo el formato: ejecuta:comando. Por ejemplo:
+
+javascript
+Copy code
+Usuario: Crea una carpeta en el escritorio
+IA: ejecuta:mkdir ~/Desktop/NOMBRE_DE_LA_CARPETA
+La IA ejecutará el comando proporcionado y mostrará el resultado del comando en la consola.
+
+Advertencia
+
+Este script ejecuta comandos en la terminal de su Mac según las solicitudes del usuario. Por lo tanto, tenga precaución al interactuar con la IA y solicitar comandos que puedan afectar negativamente su sistema
