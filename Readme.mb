@@ -1,4 +1,3 @@
-```
 # README
 
 ## Descripción
@@ -48,4 +47,3 @@ La IA ejecutará el comando proporcionado y mostrará el resultado del comando e
 ## Advertencia
 
 Este script ejecuta comandos en la terminal de su Mac según las solicitudes del usuario. Por lo tanto, tenga precaución al interactuar con la IA y solicitar comandos que puedan afectar negativamente su sistema.
-```
